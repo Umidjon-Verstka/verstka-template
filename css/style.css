@@ -1,19 +1,27 @@
-/* ---VARIABLES---------------------------------------------- */
+/* Variables */
 :root{
     /* --name: value */
-    --bg-color: #fff;
-    --color-1: #fafafa;
-    --main-text-color: #000;
+    --main-text-color: #fff;
     --main-font-family: "Montserrat", sans-serif;
     --main-font-weight: 400;
     --main-font-size: 16px;
 }
-/* ---CONTAINER---------------------------------------------- */
+/* Container */
 .container {
     max-width: 1000px;
     padding: 0 15px;
     margin: 0 auto;
 }
-/* ---SECTIONS---------------------------------------------- */
+/* Same codes */
 
-/* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
+/* Html and Body */
+html,
+body{
+    background-color: var(--bg-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-text-color);
+    line-height: 1;
+}
+/* Sections */
